@@ -17,13 +17,14 @@ import {
     docker,
     meta,
     starbucks,
-    tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
+    OpenAI,
+    MetaGram,
+    GoFood,
   } from "../assets";
+  
+  
   
   export const navLinks = [
     {
@@ -128,19 +129,19 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    // {
+    //   title: "React Native Developer",
+    //   company_name: "Tesla",
+    //   icon: tesla,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2021 - Feb 2022",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
     {
       title: "Web Developer",
       company_name: "Shopify",
@@ -198,9 +199,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "GoFood",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to search, order, and manage their food items. A food delivery web page that is made up of MERN uses Epress.js for backend, React.js for frontend and stores data in mongoDB.",
       tags: [
         {
           name: "react",
@@ -211,17 +212,38 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "bootstrap",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: GoFood,
+      source_code_link: "https://github.com/Sahil-2703/GoFood.git",
     },
     {
-      name: "Job IT",
+      name: "MetaGram",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A social media web application that enables users to join across the world and connect with more and more people and share there there memories with each others.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "material-ui",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: MetaGram,
+      source_code_link: "https://github.com/Sahil-2703/MetaGram.git",
+    },
+    {
+      name: "OpenAi",
+      description:
+        "A user friendly AI that allows users to create an AI image and share that image with community. This AI tool will generate an image according to your prompt that you had given to it.",
       tags: [
         {
           name: "react",
@@ -232,33 +254,12 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: OpenAI,
+      source_code_link: "https://github.com/Sahil-2703/OpenAi.git",
     },
   ];
   

@@ -30,6 +30,10 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import OpenAI from '../assets/tech/OpenAI.png'
+import MetaGram from '../assets/tech/MetaGram.png'
+import GoFood from '../assets/tech/goFood.png'
+
 export {
   logo,
   backend,
@@ -59,4 +63,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  OpenAI,
+  MetaGram,
+  GoFood
 };
