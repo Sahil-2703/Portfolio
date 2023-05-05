@@ -32,7 +32,7 @@ import tripguide from "./tripguide.png";
 
 import OpenAI from '../assets/tech/OpenAI.png'
 import MetaGram from '../assets/tech/MetaGram.png'
-import GoFood from '../assets/tech/goFood.png'
+import GoFood from '../assets/tech/GoFood.png'
 
 export {
   logo,
