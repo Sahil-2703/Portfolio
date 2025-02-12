@@ -22,6 +22,7 @@ import {
     OpenAI,
     MetaGram,
     GoFood,
+    tesla
   } from "../assets";
   
   
@@ -55,7 +56,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Blockchain Developer",
       icon: creator,
     },
   ];
@@ -117,55 +118,54 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Trainee",
+      company_name: "SAP, India",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "February 2024 - March 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Gained experience in AI, ML, IoT, and SAP technologies.",
+        "Collaborated with senior developers on tech solutions.",
+        "Participated in training sessions and workshops.",
+        "Team Collaboration on Capstone project.",
+      ]
+    },
+    {
+      title: "React Native Developer",
+      company_name: "UpSkillLink",
+      icon: tesla,
+      iconBg: "#E6DEDD",
+      date: "Jan 2021 - Feb 2022",
+      points: [
+        "Developing and maintaining web applications using React Native and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
-    // {
-    //   title: "React Native Developer",
-    //   company_name: "Tesla",
-    //   icon: tesla,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2021 - Feb 2022",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
     {
       title: "Web Developer",
-      company_name: "Shopify",
+      company_name: "Cling MultiSolution",
       icon: shopify,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Learned MERN Stack under the trainers.",
+        "Integrating API's and testing API's using Postman agent.",
+        "Worked on basic projects for company.",
+        "Gained the knowledge on Redux, Node.Js.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      title: "Trainee",
+      company_name: "ByteXL",
       icon: meta,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        " Learned DSA, Advanced DSA, reasoning, Web Development, DBMS",
+        "Worked on basic web projects for practice.",
+        "Hands on experience on DSA and Advance DSA.",
       ],
     },
   ];
